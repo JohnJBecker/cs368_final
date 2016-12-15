@@ -1,0 +1,40 @@
+Recipe
+"Name of Recipe"
+Instructions
+"Description of instructions"
+Ingredients
+"Name - 1
+"amount" - 1
+"Name" - 2
+"amount" - 2
+"Name" - ...
+"amount" - ...
+endOfRecipe
+Recipe
+"Name of Recipe"
+Instructions
+"Description of instructions"
+Ingredients
+"Name - 1
+"amount" - 1
+"Name" - 2
+"amount" - 2
+"Name" - ...
+"amount" - ...
+endOfRecipe
+Recipe
+stuff
+Instructions
+do it good
+Ingredients
+good good
+1
+endOfRecipe
+Recipe
+stuff
+Instructions
+do it good
+Ingredients
+good good
+1
+endOfRecipe
