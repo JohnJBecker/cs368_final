@@ -157,9 +157,11 @@ int main(){
                     std::cout << "Please enter y or n" << std::endl;
                 }
                 // create new recipe with the information entered by the user
-                Recipe tmpRecipe(recipeName, recipeInstructions,
-                                 recipeIngredients);
-                recipeBook.push_back(tmpRecipe);
+                if(userInput == "n" || userInput == "N") {
+                    Recipe tmpRecipe(recipeName, recipeInstructions,
+                                     recipeIngredients);
+                    recipeBook.push_back(tmpRecipe);
+                }
             }
         } else if(userInput == "2"){
             std::vector<Recipe>::iterator it;
